@@ -16,7 +16,7 @@ const Products = () => {
                 <Row className='justify-content-md-center justify-content-xs-center mt-5'>
                     {
                         products.map(product =>
-                            <Col className='shadow-lg border rounded border-secondary border-2 ms-md-4 me-sm-1 mb-4 my-auto' md={3} sm={6} >
+                            <Col style={{width:'280px'}} className='shadow-lg rounded ms-md-4 me-sm-1 mb-4 my-auto mx-auto' md={3} sm={6} >
                             <Product 
                                 key={product.name}
                                 product={product}>

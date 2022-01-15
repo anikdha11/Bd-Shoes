@@ -11,7 +11,7 @@ const CustomerReviews = () => {
     return (
         <div className='mt-5'>
             <span className='fw-bold text-primary mb-5 text-success  fw-bold shadow-lg border rounded mx-auto p-2'>Happy Customer</span>
-            <Carousel variant="dark" className='shadow-lg w-75 mx-auto border border-danger border-5 mt-5'>
+            <Carousel variant="dark" className='shadow-lg w-75 mx-auto mt-5'>
                 {
                     reviews.map(review => <Carousel.Item>
                         <img
