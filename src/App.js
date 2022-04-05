@@ -5,7 +5,7 @@ import { Routes, Route } from "react-router-dom";
 import Login from './Pages/Login/Login';
 import Home from './Pages/Home/Home/Home'
 import NotFound from './Pages/404Page/NotFound';
-import Footer from './Pages/Footer/Footer';
+// import Footer from './Pages/Footer/Footer';
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-        <Footer></Footer>
+        {/* <Footer></Footer> */}
       </BrowserRouter>
     </div>
   );

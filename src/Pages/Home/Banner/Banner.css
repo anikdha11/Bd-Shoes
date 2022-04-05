@@ -1,1 +1,10 @@
 
+/* .slider img:hover{
+    -ms-transform: scale(0.5); 
+    -webkit-transform: scale(1.5);
+    transform: scale(1.3);
+    transition: all .8s;
+} */
+.slider{
+    overflow: hidden;
+}

@@ -1,0 +1,6 @@
+.col-hover:hover{
+    border: 2px solid rgb(43, 44, 44);
+}
+.col-hover{
+    border: 2px solid gray;
+}

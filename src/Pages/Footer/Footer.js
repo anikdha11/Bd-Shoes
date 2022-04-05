@@ -1,5 +1,6 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
+import "./Footer.css"
 
 const Footer = () => {
     return (
@@ -18,11 +19,11 @@ const Footer = () => {
                     </Col>
  
                     <Col md={6} sm={8}>
-                        <div  className="d-flex justify-content-around mb-5">
-                        <a className="border rounded-pill p-3 border-info border-2" href="#linkedin"><i className="fab fa-linkedin-in"></i></a>
-                        <a className="border rounded-pill p-3 border-info border-2" href="#twitter"><i className="fab fa-twitter"></i></a>
-                        <a className="border rounded-pill p-3 border-info border-2" href="#facebook"><i className="fab fa-facebook-f"></i></a>
-                        <a className="border rounded-pill p-3 border-info border-2" href="#instragram"><i className="fab fa-instagram"></i></a>
+                        <div  className="d-flex justify-content-around mb-5 link">
+                        <a className="border rounded-pill p-3 border-2" href="#linkedin"><i className="fab fa-linkedin-in"></i></a>
+                        <a className="border rounded-pill p-3  border-2" href="#twitter"><i className="fab fa-twitter"></i></a>
+                        <a className="border rounded-pill p-3  border-2" href="#facebook"><i className="fab fa-facebook-f"></i></a>
+                        <a className="border rounded-pill p-3  border-2" href="#instragram"><i className="fab fa-instagram"></i></a>
                         </div>
                         
                         <h6 className="mt-3 fw-bold">All Right Reserved &#169; 2021 Anik Dhar</h6>
