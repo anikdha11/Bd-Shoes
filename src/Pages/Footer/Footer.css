@@ -1,8 +1,33 @@
 .link a{
   
-    background-color: rgb(231, 138, 61);
+    background-color: rgb(239, 238, 238);
 }
 .link a:hover{
-    background-color: rgb(235, 197, 115);
+    background-color: rgb(135, 133, 130);
    
+}
+.font-p p{
+    font-size: 0.8rem;
+}
+
+.email{
+    color:rgb(126, 123, 123);
+    font-weight: 400;
+}
+.email:hover{
+    color: rgb(24, 232, 100);
+}
+.footer-hover p:hover::before{
+    content: "-";
+    color: rgb(8, 237, 77);
+    cursor: pointer;
+    transform: 5s;
+    transition: ease-in;
+}
+.footer-hover p:hover{
+    color: rgba(8, 237, 77, 0.732);
+   
+}
+.footer-hover p{
+    cursor: pointer;
 }

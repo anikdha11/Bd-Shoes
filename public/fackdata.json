@@ -1,6 +1,6 @@
 [
     {
-        "name":"Demo-1",
+        "name":"Nike Classic",
         "price":"45",
         "description":"That's a amazing for use.you can use ",
         "img":"https://i.ibb.co/VN0BQ82/shoe-1-removebg-preview.png",
@@ -8,7 +8,7 @@
     }
     ,
     {
-        "name":"Demo-2",
+        "name":"Nike Pure Boost",
         "price":"85",
         "description":"That's a amazing for use.you can use ",
         "img":"https://i.ibb.co/d2mLqgT/shoe-2-removebg-preview.png",
@@ -16,7 +16,7 @@
     }
     ,
     {
-        "name":"Demo-3",
+        "name":"Jordan 89",
         "price":"125",
         "description":"That's a amazing for use.you can use ",
         "img":"https://i.ibb.co/X5TTpBc/shoe-3-removebg-preview.png",
@@ -24,7 +24,7 @@
     }
     ,
     {
-        "name":"Demo-4",
+        "name":"Air Flyknit",
         "price":"140",
         "description":"That's a amazing for use.you can use ",
         "img":"https://i.ibb.co/pL203Z5/shoe-4-removebg-preview.png",
@@ -32,7 +32,7 @@
     }
     ,
     {
-        "name":"Demo-5",
+        "name":"Nike Air Zoom",
         "price":"57",
         "description":"That's a amazing for use.you can use ",
         "img":"https://i.ibb.co/xf62bq1/shoe-5-removebg-preview.png",
@@ -40,7 +40,7 @@
     }
     ,
     {
-        "name":"Demo-6",
+        "name":"Air Max 97",
         "price":"98",
         "description":"That's a amazing for use.you can use ",
         "img":"https://i.ibb.co/KG8zF0Y/shoe-6-removebg-preview.png",
@@ -48,7 +48,7 @@
     }
     ,
     {
-        "name":"Demo-7",
+        "name":"Sky Blue",
         "price":"74",
         "description":"That's a amazing for use.you can use ",
         "img":"https://i.ibb.co/k4qRRc0/shoe-7-removebg-preview.png",
@@ -56,7 +56,7 @@
     }
     ,
     {
-        "name":"Demo-8",
+        "name":"Sports Shoe",
         "price":"45",
         "description":"That's a amazing for use.you can use ",
         "img":"https://i.ibb.co/Scyfhzp/shoe-8-removebg-preview.png",
@@ -64,14 +64,14 @@
     }
     ,
     {
-        "name":"Demo-9",
+        "name":"Air Max",
         "price":"69",
         "description":"That's a amazing for use.you can use ",
         "img":"https://i.ibb.co/b1yB015/shoe-9-removebg-preview.png",
         "rating":"5"
     },
     {
-        "name":"Demo-10",
+        "name":"Lofer 10",
         "price":"45",
         "description":"That's a amazing for use.you can use ",
         "img":"https://i.ibb.co/yY024k4/shoe-10-removebg-preview.png",

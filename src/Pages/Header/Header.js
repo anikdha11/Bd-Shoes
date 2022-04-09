@@ -29,13 +29,13 @@ const Header = () => {
                     </Link>
                    {
                        user?.email && <div>
-                           <img src={user.photoURL} alt="" />
+                           <img className='w-50 border rounded-circle' src={user.photoURL} alt="" />
                            <h4>{user.displayName}</h4>
-                           <Button onClick={handleSignOut}>Logout</Button>
+                           <Button variant="outline-dark" onClick={handleSignOut}>Logout</Button>
                        </div>
                    }
 
-                    <Navbar.Toggle  aria-controls="offcanvasNavbar" />
+                    <Navbar.Toggle style={{border:'0',color:'transparent',borderRadius:'20px'}} className="toggle"  aria-controls="offcanvasNavbar" />
                     <Navbar.Offcanvas
                         id="offcanvasNavbar"
                         aria-labelledby="offcanvasNavbarLabel"

@@ -4,6 +4,7 @@
     transition-timing-function: ease-in;
     transition: 0.5s;
 }
-#offcanvasNavbar{
-    border: 1px solid red;
+.toggle:focus{
+    background-color: gold;
+    padding: 5px;
 }

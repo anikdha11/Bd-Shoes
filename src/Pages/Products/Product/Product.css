@@ -1,6 +1,18 @@
-.col-hover:hover{
-    border: 2px solid rgb(43, 44, 44);
+.title:hover span{
+    color: rgb(43, 226, 64);
+    font-weight: 500;
+    cursor: pointer;
 }
-.col-hover{
-    border: 2px solid gray;
+.title:hover{
+    color: rgb(250, 50, 15);
+}
+.title-1 h6:hover{
+    color: rgb(43,226,64);
+    cursor: pointer;
+}
+.bg-product{
+    background-color: rgb(228, 231, 227);
+}
+.product-title::before{
+    content: "-";
 }

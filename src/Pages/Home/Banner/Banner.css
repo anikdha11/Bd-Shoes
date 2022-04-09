@@ -8,3 +8,25 @@
 .slider{
     overflow: hidden;
 }
+.banner-2{
+    background-image: url("../../../image/banner/banner-1.webp");
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: auto;
+     height: 400px;
+}
+.banner-1{
+    background-image: url("../../../image/banner/banner-2.webp");
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: auto;
+     height: 400px;
+
+}
+.banner-3{
+    background-image: url("../../../image/banner/banner-3.webp");
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: 400px;
+
+}
