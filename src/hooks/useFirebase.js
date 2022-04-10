@@ -4,7 +4,8 @@ import {
     GoogleAuthProvider,
     TwitterAuthProvider,
     signOut,
-    onAuthStateChanged} from "firebase/auth";
+    onAuthStateChanged,
+    signInWithEmailAndPassword} from "firebase/auth";
 import { useEffect, useState } from "react";
 import intializeFirebaseApp from "../Pages/Login/Firebase/firebase.init";
 
@@ -24,6 +25,7 @@ const useFirebase = () => {
         setLoading(true);
         signInWithPopup(auth, googleProvider)
             .then((result) => {
+                // console.log(result)
                 setUser(result.user);
                 saveUser(result.user);
                 navigate(from, { replace: true });
@@ -38,17 +40,32 @@ const useFirebase = () => {
             .then((result) => {
                 setUser(result.user);
                 navigate(from);
+              
             })
             .catch((error) => setError(error.message))
             .finally(() => setLoading(false));
     };
+    const loginUser = (email, password, location, history) => {
+        setLoading(true)
+        signInWithEmailAndPassword(auth, email, password)
+          .then((userCredential) => {
+            const destination = location?.state?.from || '/'
+            history.replace(destination);
+            setError('')
+            console.log(userCredential.user)
+          })
+          .catch((error) => {
+            setError(error.message);
+          })
+          .finally(() => setLoading(false));;
+      }
 
     const saveUser = (newUser) => {
         const user = {
             email: newUser.email,
             role: "customer",
         };
-        fetch("https://ancient-dawn-22893.herokuapp.com/user", {
+        fetch("https://secret-badlands-82308.herokuapp.com/users", {
             method: "POST",
             headers: {
                 "content-type": "application/json",
@@ -86,9 +103,11 @@ const useFirebase = () => {
         user,
         error,
         loading,
+        loginUser,
         handleGoogleSignIn,
         handleTwitterSignIn,
-        handleSignOut
+        handleSignOut,
+        saveUser
     }
 }
 export default useFirebase;

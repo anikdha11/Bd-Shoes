@@ -1,18 +1,25 @@
-.title:hover span{
-    color: rgb(43, 226, 64);
-    font-weight: 500;
+.title:hover {
+    color: rgb(28, 189, 79);
     cursor: pointer;
 }
-.title:hover{
-    color: rgb(250, 50, 15);
-}
-.title-1 h6:hover{
-    color: rgb(43,226,64);
-    cursor: pointer;
-}
-.bg-product{
+
+.bg-product {
     background-color: rgb(228, 231, 227);
 }
-.product-title::before{
+
+.product-title::before {
     content: "-";
+}
+.title2{
+    font-size: small;
+}
+.title2:hover{
+    color: rgba(78, 205, 125, 0.858);
+    cursor: pointer;
+}
+
+/* product section */
+.title-1 h6:hover{
+  color: rgb(63, 211, 103);
+  cursor: pointer;
 }

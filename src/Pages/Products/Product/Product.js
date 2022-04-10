@@ -7,10 +7,10 @@ const Product = (product) => {
     return (
         <div className='border ps-3 pe-3 bg-product'>
                 <img className='img-fluid mt-2 rounded ' style={{height:'200px'}} src={img} alt="" />
-                <div className='d-flex justify-content-between'>
-                <div className='text-start title'>
-                <h6 className=''>{name}</h6>
-                <span>Jordan,Nike</span>
+                <div className='d-flex justify-content-between pb-3'>
+                <div className='text-start '>
+                <h6 className='title fw-bold'>{name}</h6>
+                <span className='title2'>Jordan,</span> <span className='title2'>Nike</span>
                 </div>
                 <p>${price}</p>
                 </div>

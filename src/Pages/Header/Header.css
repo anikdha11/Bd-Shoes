@@ -4,7 +4,23 @@
     transition-timing-function: ease-in;
     transition: 0.5s;
 }
+.toggle{
+    border: 0;
+    font-size: 1.1rem;
+}
 .toggle:focus{
-    background-color: gold;
-    padding: 5px;
+    border-right: 6px dotted rgb(9, 9, 9);
+    border-left: 5px dotted rgb(74, 75, 75);  
+}
+
+.catagory:hover::before{
+content: '->';
+}
+.catagory{
+    color: rgb(0, 0, 0);
+}
+.catagory:hover{
+    color: rgb(18, 224, 101);
+    background-color: rgb(205, 212, 212);
+    font-weight: 500;
 }
